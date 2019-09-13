@@ -1,0 +1,3 @@
+1.Local Run : python Preprocessing.py upload_to_s3 --local-scheduler --awsaccess <Value> --awssecret <Value> --inputLocation <Value>
+
+2.Docker Run : docker run sanikabhagat/pre1 python /src/Preprocessing.py upload_to_s3 --local-scheduler --awsaccess <Value> --awssecret <Value> --inputLocation <Value>
